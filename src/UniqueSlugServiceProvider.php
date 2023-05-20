@@ -15,7 +15,7 @@ class UniqueSlugServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->bind('laravel-unique-slug',function($app){
-            return new \AlRony\LaravelUniqueSlugGenerator\UniqueSlug();
+            return new \AlRony\LaravelUniqueSlug\UniqueSlug();
         });
 
         $this->mergeConfigFrom(
