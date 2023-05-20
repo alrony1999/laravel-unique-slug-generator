@@ -1,6 +1,6 @@
 {
     "name": "al_rony/laravel-unique-slug-generator",
-    "type": "composer-plugin",
+    "type": "library",
     "autoload": {
         "psr-4": {
             "AlRony\\LaravelUniqueSlugGenerator\\": "src/"
