@@ -5,7 +5,7 @@ namespace AlRony\LaravelUniqueSlug\Facades;
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \AlRony\LaravelUniqueSlugGenerator\UniqueSlug
+ * @see \AlRony\LaravelUniqueSlug\UniqueSlug
  */
 class UniqueSlug extends Facade
 {
