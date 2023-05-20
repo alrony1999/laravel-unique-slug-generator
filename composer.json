@@ -1,0 +1,27 @@
+{
+    "name": "al_rony/laravel-unique-slug-generator",
+    "type": "composer-plugin",
+    "autoload": {
+        "psr-4": {
+            "AlRony\\LaravelUniqueSlugGenerator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "alrony1999",
+            "email": "alrony001153@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AlRony\\LaravelUniqueSlug\\UniqueSlugServiceProvider"
+            ],
+            "aliases": {
+                "UniqueSlug": "AlRony\\LaravelUniqueSlug\\UniqueSlug"
+            }
+        }
+    }
+}
