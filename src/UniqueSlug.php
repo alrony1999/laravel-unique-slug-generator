@@ -1,6 +1,6 @@
 <?php
 
-namespace AlRony\LaravelUniqueSlugGenerator;
+namespace AlRony\LaravelUniqueSlug;
 
 class UniqueSlug
 {

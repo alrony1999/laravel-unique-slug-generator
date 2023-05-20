@@ -1,6 +1,6 @@
 <?php
 
-namespace AlRony\LaravelUniqueSlugGenerator\Facades;
+namespace AlRony\LaravelUniqueSlug\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
